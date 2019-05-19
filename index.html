@@ -7,17 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>
-        <li><a href="">Lifestyle</a></li>
-        <li><a href="">Photodiary</a></li>
-        <li><a href="">Music</a></li>
-        <li><a href="">Travel</a></li>
-    </ul>
-    <div>
-        <img src="img/musicfestival.png" alt="Music Festival" width="420" height="280">
-        <p>Lifestyle</p>
-        <h2>More than just a music festival</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+    <header class="header">
+      <ul class="menu">
+        <li class="menu_item"><a href="" class="menu_link">Lifestyle</a></li>
+        <li class="menu_item"><a href="" class="menu_link">Photodiary</a></li>
+        <li class="menu_item"><a href="" class="menu_link">Music</a></li>
+        <li class="menu_item"><a href="" class="menu_link">Travel</a></li>
+      </ul>
+    </header>
+    <main>
+       <div class="cards">
+      <div class="card1">
+        <img src="img/musicfestival.png" alt="Music Festival" width="420" height="280" class="card__image">
+        <p class="card__subtitle">Lifestyle</p>
+        <h2 class="card__title">More than just a music festival</h2>
+        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
              sed do eiusmod tempor incididunt ut labore et dolore magna 
              aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
              ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -36,11 +40,11 @@
              non numquam eius modi tempora incidunt ut labore et dolore magnam 
              aliquam quaerat voluptatem.</p>
     </div>
-    <div>
-        <img src="img/coffee.png" alt="Coffee" width="420" height="280">
-        <p>lifestyle</p>
-        <h2>Life tastes better with coffee</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+    <div class="card2">
+        <img src="img/coffee.png" alt="Coffee" width="420" height="280" class="card__image">
+        <p class="card__subtitle">lifestyle</p>
+        <h2 class="card__title">Life tastes better with coffee</h2>
+        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna 
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
             ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -59,11 +63,11 @@
             non numquam eius modi tempora incidunt ut labore et dolore magnam 
             aliquam quaerat voluptatem.</p>
     </div>
-    <div>
-        <img src="img/americandream.png" alt="American Dream" width="420" height="280">
-        <p>photodiary</p>
-        <h2>American dream</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+    <div class="card3">
+        <img src="img/americandream.png" alt="American Dream" width="420" height="280" class="card__image">
+        <p class="card__subtitle">photodiary</p>
+        <h2 class="card__title">American dream</h2>
+        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna 
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
             ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -82,11 +86,11 @@
             non numquam eius modi tempora incidunt ut labore et dolore magnam 
             aliquam quaerat voluptatem.</p>
     </div>
-    <div>
-        <img src="img/alps.png" alt="Alps" width="420" height="280">
-        <p>photodiary</p>
-        <h2>A day exploring the Alps</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+    <div class="card4">
+        <img src="img/alps.png" alt="Alps" width="420" height="280" class="card__image">
+        <p class="card__subtitle"> photodiary</p>
+        <h2 class="card__title">A day exploring the Alps</h2>
+        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna 
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
             ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -104,7 +108,11 @@
             ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia 
             non numquam eius modi tempora incidunt ut labore et dolore magnam 
             aliquam quaerat voluptatem.</p>
-    </div>
-    <button>load more</button>
+        </div>
+      </div>
+      <div class="page-btn">
+         <button class="btn-load-more">load more</button>
+      </div>
+   </main>
 </body>
 </html>
